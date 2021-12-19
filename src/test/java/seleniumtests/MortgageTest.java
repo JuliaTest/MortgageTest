@@ -24,7 +24,7 @@ public class MortgageTest {
         MortgageResult mortgageResult = inputForm.clickCalculateButton();
         String overPayment = mortgageResult.getOverPayment();
         assertEquals("952 500,00", overPayment);
-        sleep(5000);
+        sleep(3000);
     }
 
     @Test
